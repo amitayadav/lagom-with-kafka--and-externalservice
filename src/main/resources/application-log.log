@@ -1,0 +1,190 @@
+15:51:17 INFO  Slf4jLogger {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 applyOrElse} - Slf4jLogger started
+15:51:17 INFO  Remoting {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Starting remoting
+15:51:17 INFO  Remoting {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Remoting started; listening on addresses :[akka.tcp://user-impl-application@127.0.0.1:41733]
+15:51:17 INFO  Remoting {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Remoting now listens on addresses: [akka.tcp://user-impl-application@127.0.0.1:41733]
+15:51:17 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:41733] - Starting up, Akka version [2.5.16] ...
+15:51:17 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:41733] - Registered cluster JMX MBean [akka:type=Cluster,port=41733]
+15:51:17 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:41733] - Started up successfully
+15:51:17 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:41733] - No seed-nodes configured, manual cluster join required
+15:51:17 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:41733] - Node [akka.tcp://user-impl-application@127.0.0.1:41733] is JOINING itself (with roles [dc-default]) and forming new cluster
+15:51:17 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:41733] - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:41733] dc [default] is the new leader
+15:51:17 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:41733] - Leader is moving node [akka.tcp://user-impl-application@127.0.0.1:41733] to [Up]
+15:51:18 INFO  GuavaCompatibility {com.datastax.driver.core.GuavaCompatibility selectImplementation} - Detected Guava >= 19 in the classpath, using modern compatibility layer
+15:51:18 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Singleton manager starting singleton actor [akka://user-impl-application/user/cassandraOffsetStorePrepare-singleton/singleton]
+15:51:18 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - ClusterSingletonManager state change [Start -> Oldest]
+15:51:18 INFO  ClusterStartupTaskActor {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Executing cluster start task cassandraOffsetStorePrepare.
+15:51:18 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Singleton manager starting singleton actor [akka://user-impl-application/system/sharding/kafkaProducer-getting-UserEventCoordinator/singleton]
+15:51:18 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - ClusterSingletonManager state change [Start -> Oldest]
+15:51:18 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Singleton manager starting singleton actor [akka://user-impl-application/system/sharding/UserEntityCoordinator/singleton]
+15:51:18 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - ClusterSingletonManager state change [Start -> Oldest]
+15:51:18 INFO  DDataShardCoordinator {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Sharding Coordinator was moved to the active state State(Map(),Map(),Set(),Set(),false)
+15:51:18 INFO  DDataShardCoordinator {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Sharding Coordinator was moved to the active state State(Map(),Map(),Set(),Set(),false)
+15:51:19 INFO  Play {play.api.Play$ start} - Application started (Dev)
+15:51:19 INFO  ClusterSingletonProxy {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Singleton identified at [akka://user-impl-application/user/cassandraOffsetStorePrepare-singleton/singleton]
+15:51:19 INFO  ClockFactory {com.datastax.driver.core.ClockFactory newInstance} - Using native clock to generate timestamps.
+15:51:19 INFO  NettyUtil {com.datastax.driver.core.NettyUtil <clinit>} - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+15:52:06 INFO  Slf4jLogger {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 applyOrElse} - Slf4jLogger started
+15:52:06 INFO  Remoting {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Starting remoting
+15:52:06 INFO  Remoting {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Remoting started; listening on addresses :[akka.tcp://user-impl-application@127.0.0.1:43369]
+15:52:06 INFO  Remoting {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Remoting now listens on addresses: [akka.tcp://user-impl-application@127.0.0.1:43369]
+15:52:06 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:43369] - Starting up, Akka version [2.5.16] ...
+15:52:06 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:43369] - Registered cluster JMX MBean [akka:type=Cluster,port=43369]
+15:52:06 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:43369] - Started up successfully
+15:52:06 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:43369] - No seed-nodes configured, manual cluster join required
+15:52:06 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:43369] - Node [akka.tcp://user-impl-application@127.0.0.1:43369] is JOINING itself (with roles [dc-default]) and forming new cluster
+15:52:06 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:43369] - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:43369] dc [default] is the new leader
+15:52:06 INFO  Cluster(akka://user-impl-application) {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster Node [akka.tcp://user-impl-application@127.0.0.1:43369] - Leader is moving node [akka.tcp://user-impl-application@127.0.0.1:43369] to [Up]
+15:52:07 INFO  GuavaCompatibility {com.datastax.driver.core.GuavaCompatibility selectImplementation} - Detected Guava >= 19 in the classpath, using modern compatibility layer
+15:52:07 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Singleton manager starting singleton actor [akka://user-impl-application/user/cassandraOffsetStorePrepare-singleton/singleton]
+15:52:07 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - ClusterSingletonManager state change [Start -> Oldest]
+15:52:07 INFO  ClusterStartupTaskActor {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Executing cluster start task cassandraOffsetStorePrepare.
+15:52:07 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Singleton manager starting singleton actor [akka://user-impl-application/system/sharding/kafkaProducer-getting-UserEventCoordinator/singleton]
+15:52:07 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - ClusterSingletonManager state change [Start -> Oldest]
+15:52:07 INFO  DDataShardCoordinator {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Sharding Coordinator was moved to the active state State(Map(),Map(),Set(),Set(),false)
+15:52:07 INFO  DDataShardCoordinator {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Sharding Coordinator was moved to the active state State(Map(),Map(),Set(),Set(),false)
+15:52:07 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Singleton manager starting singleton actor [akka://user-impl-application/system/sharding/UserEntityCoordinator/singleton]
+15:52:07 INFO  ClusterSingletonManager {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - ClusterSingletonManager state change [Start -> Oldest]
+15:52:08 INFO  Play {play.api.Play$ start} - Application started (Dev)
+15:52:08 INFO  ClusterSingletonProxy {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Singleton identified at [akka://user-impl-application/user/cassandraOffsetStorePrepare-singleton/singleton]
+15:52:08 INFO  ClockFactory {com.datastax.driver.core.ClockFactory newInstance} - Using native clock to generate timestamps.
+15:52:09 INFO  NettyUtil {com.datastax.driver.core.NettyUtil <clinit>} - Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+15:52:09 INFO  DCAwareRoundRobinPolicy {com.datastax.driver.core.policies.DCAwareRoundRobinPolicy init} - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+15:52:09 INFO  Cluster {com.datastax.driver.core.Cluster$Manager init} - New Cassandra host /127.0.0.1:4000 added
+15:52:19 INFO  ClusterStartupTaskActor {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$3} - Cluster start task cassandraOffsetStorePrepare done.
+15:52:19 INFO  ClockFactory {com.datastax.driver.core.ClockFactory newInstance} - Using native clock to generate timestamps.
+15:52:19 INFO  DCAwareRoundRobinPolicy {com.datastax.driver.core.policies.DCAwareRoundRobinPolicy init} - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+15:52:19 INFO  Cluster {com.datastax.driver.core.Cluster$Manager init} - New Cassandra host /127.0.0.1:4000 added
+15:52:19 INFO  UUIDs {com.datastax.driver.core.utils.UUIDs getProcessPiece} - PID obtained through native call to getpid(): 15715
+15:52:19 INFO  ClockFactory {com.datastax.driver.core.ClockFactory newInstance} - Using native clock to generate timestamps.
+15:52:20 INFO  DCAwareRoundRobinPolicy {com.datastax.driver.core.policies.DCAwareRoundRobinPolicy init} - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+15:52:20 INFO  Cluster {com.datastax.driver.core.Cluster$Manager init} - New Cassandra host /127.0.0.1:4000 added
+15:52:20 INFO  ProducerConfig {org.apache.kafka.common.config.AbstractConfig logAll} - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = /system/sharding/kafkaProducer-getting-UserEvent/singleton/singleton/producer
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class com.lightbend.lagom.internal.scaladsl.broker.kafka.ScaladslKafkaSerializer
+
+15:52:20 INFO  AppInfoParser {org.apache.kafka.common.utils.AppInfoParser$AppInfo <init>} - Kafka version : 0.11.0.1
+15:52:20 INFO  AppInfoParser {org.apache.kafka.common.utils.AppInfoParser$AppInfo <init>} - Kafka commitId : c2a0d5f9b1f45bf5
+15:56:47 ERROR user {com.lightbend.lagom.internal.scaladsl.server.ScaladslServiceRouter maybeLogException} - Exception in PathCallIdImpl(/api/consume/user)
+java.lang.UnsupportedOperationException: Topic#subscribe is not permitted in the service's topic implementation.
+	at com.lightbend.internal.broker.InternalTopic.subscribe(TopicProducers.scala:17)
+	at com.lightbend.internal.broker.InternalTopic.subscribe$(TopicProducers.scala:16)
+	at com.lightbend.internal.broker.TaggedOffsetTopicProducer.subscribe(TopicProducers.scala:20)
+	at com.knoldus.impl.services.UserServiceImpl.consumeUser(UserServiceImpl.scala:37)
+	at com.knoldus.impl.services.UserServiceImpl.$anonfun$checkUser$1(UserServiceImpl.scala:32)
+	at com.lightbend.lagom.scaladsl.api.ServiceCall$$anon$1.invoke(ServiceCall.scala:104)
+	at com.lightbend.lagom.scaladsl.api.ServiceCall.$anonfun$handleResponseHeader$1(ServiceCall.scala:81)
+	at com.lightbend.lagom.scaladsl.api.ServiceCall$$anon$1.invoke(ServiceCall.scala:104)
+	at com.lightbend.lagom.internal.scaladsl.server.ScaladslServiceRouter.invokeServiceCall(ScaladslServiceRouter.scala:97)
+	at com.lightbend.lagom.internal.scaladsl.server.ScaladslServiceRouter.invokeServiceCall(ScaladslServiceRouter.scala:24)
+	at com.lightbend.lagom.internal.server.ServiceRouter.$anonfun$handleServiceCall$1(ServiceRouter.scala:181)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:357)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+16:10:28 ERROR ControlConnection {com.datastax.driver.core.ControlConnection$1 onConnectionException} - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+16:10:28 ERROR ControlConnection {com.datastax.driver.core.ControlConnection$1 onConnectionException} - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+16:10:28 ERROR ControlConnection {com.datastax.driver.core.ControlConnection$1 onConnectionException} - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+16:10:28 WARN  NetworkClient {org.apache.kafka.clients.NetworkClient processDisconnection} - Connection to node 0 could not be established. Broker may not be available.
+16:10:28 WARN  NetworkClient {org.apache.kafka.clients.NetworkClient processDisconnection} - Connection to node 0 could not be established. Broker may not be available.
+16:10:29 WARN  NetworkClient {org.apache.kafka.clients.NetworkClient processDisconnection} - Connection to node 0 could not be established. Broker may not be available.
+16:10:29 WARN  NetworkClient {org.apache.kafka.clients.NetworkClient processDisconnection} - Connection to node 0 could not be established. Broker may not be available.
+16:10:29 INFO  KafkaProducer {org.apache.kafka.clients.producer.KafkaProducer close} - Closing the Kafka producer with timeoutMillis = 60000 ms.
+16:10:29 ERROR OneForOneStrategy {akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 $anonfun$applyOrElse$1} - com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (no host was tried)
+java.util.concurrent.ExecutionException: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (no host was tried)
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:503)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:462)
+	at akka.persistence.cassandra.package$$anon$1.$anonfun$run$1(package.scala:18)
+	at scala.util.Try$.apply(Try.scala:209)
+	at akka.persistence.cassandra.package$$anon$1.run(package.scala:18)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (no host was tried)
+	at com.datastax.driver.core.RequestHandler.reportNoMoreHosts(RequestHandler.java:213)
+	at com.datastax.driver.core.RequestHandler.access$1000(RequestHandler.java:49)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.findNextHostAndQuery(RequestHandler.java:277)
+	at com.datastax.driver.core.RequestHandler.startNewExecution(RequestHandler.java:117)
+	at com.datastax.driver.core.RequestHandler.sendRequest(RequestHandler.java:97)
+	at com.datastax.driver.core.SessionManager.executeAsync(SessionManager.java:132)
+	at akka.persistence.cassandra.query.EventsByTagFetcher.preStart(EventsByTagFetcher.scala:86)
+	at akka.actor.Actor.aroundPreStart(Actor.scala:528)
+	at akka.actor.Actor.aroundPreStart$(Actor.scala:528)
+	at akka.persistence.cassandra.query.EventsByTagFetcher.aroundPreStart(EventsByTagFetcher.scala:50)
+	at akka.actor.ActorCell.create(ActorCell.scala:652)
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:523)
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:545)
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:283)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	... 3 common frames omitted
+16:10:29 ERROR ControlConnection {com.datastax.driver.core.ControlConnection$1 onConnectionException} - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
+16:10:29 ERROR ControlConnection {com.datastax.driver.core.ControlConnection$1 onConnectionException} - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
+16:10:29 ERROR ControlConnection {com.datastax.driver.core.ControlConnection$1 onConnectionException} - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds
