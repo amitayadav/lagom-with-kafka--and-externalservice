@@ -39,4 +39,14 @@ abstract class UserApplication(context: LagomApplicationContext)
 
   persistentEntityRegistry.register(wire[UserEntity])
 
+  lazy val userService = serviceClient.implement[UserService]
+
+  wire[UserSubscriber]
+
 }
+
+
+
+
+
+

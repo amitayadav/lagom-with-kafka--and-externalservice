@@ -1,6 +1,5 @@
-package com.knoldus.impl.eventsourcing
 
-import java.awt.print.Book
+package com.knoldus.impl.eventsourcing
 
 import akka.Done
 import com.knoldus.api.datamodels.User
@@ -9,11 +8,9 @@ import play.api.libs.json.{Format, Json}
 
 sealed trait UserCommand[R] extends ReplyType[R]
 
-/*
-case class ConsumeUser() extends UserCommand[User]
+case class AddUser(user: User) extends UserCommand[Done]
 
-object ConsumeUser{
-  implicit val format: Format[ConsumeUser] = Json.format[ConsumeUser]
+object AddUser {
+  implicit val format: Format[AddUser] = Json.format[AddUser]
 }
 
-*/

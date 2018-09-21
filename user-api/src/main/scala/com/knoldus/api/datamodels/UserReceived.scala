@@ -2,7 +2,7 @@ package com.knoldus.api.datamodels
 
 import play.api.libs.json.{Format, Json}
 
-case class UserReceived (user: User)
+case class UserReceived(user: User)
 
 object UserReceived {
 
