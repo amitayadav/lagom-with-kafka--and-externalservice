@@ -38,7 +38,5 @@ lazy val `user-impl` = (project in file("user-impl"))
   .dependsOn(`user-api`)
 
 lagomUnmanagedServices in ThisBuild := Map("external-service" -> "https://gist.githubusercontent.com")
-lagomKafkaEnabled in ThisBuild := false
-import scala.concurrent.duration._ // Mind that the import is needed.
+import scala.concurrent.duration._
 lagomCassandraMaxBootWaitingTime in ThisBuild := 0.seconds
-lagomCassandraPort in ThisBuild := 9042

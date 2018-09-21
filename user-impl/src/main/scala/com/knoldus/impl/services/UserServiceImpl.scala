@@ -30,7 +30,17 @@ class UserServiceImpl(actorSystem: ActorSystem, persistentEntityRegistry: Persis
 
   }*/
 
-  override def getUserFromExternalService = ServiceCall { _ =>
+  actorSystem.scheduler.schedule(0.microseconds, interval = 300.seconds){
+    val replyType= getUserFromExternalService
+    replyType.invoke().map(e => e match {
+      case Done => userEvents
+      case _ => log.info("no user")
+    })
+  }
+
+  Done.getInstance()
+
+  override def getUserFromExternalService = ServiceCall{ _=>
     val result: Future[User] = externalService.getUser.invoke()
     result.map(user => {
       val ref = persistentEntityRegistry.refFor[UserEntity](user.id)
@@ -39,13 +49,6 @@ class UserServiceImpl(actorSystem: ActorSystem, persistentEntityRegistry: Persis
           log.info("new user added")
           Done
         })
-      actorSystem.scheduler.schedule(0.microseconds, interval = 300.seconds){
-        replyType.map(e => e match {
-          case Done => userEvents
-          case _ => log.info("no user")
-        })
-      }
-
       Done.getInstance()
     })
 
